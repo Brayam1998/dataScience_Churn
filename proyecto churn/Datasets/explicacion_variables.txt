@@ -1,0 +1,130 @@
+Tenemos 5 principales categorias
+
+Demographics
+Location
+Population
+Services
+Status
+
+
+Demographics
+CustomerID: Una identificación única que identifica a cada cliente.
+
+Count: Un valor utilizado en la presentación de informes/tablero para resumir el número de clientes en un conjunto filtrado.
+Gender: El género del cliente: hombre, mujer
+
+Age: La edad actual del cliente, en años, en el momento en que terminó el trimestre fiscal.
+
+Senior Citizen: Indica si el cliente tiene 65 años o más: sí, no
+
+Married: Indica si el cliente está casado: sí, no
+
+Dependents: Indica si el cliente vive con algún dependiente: sí, el número de dependientes podría ser niños, padres, abuelos, etc.
+
+Number of Dependents:Indica el número de dependientes que viven con el cliente.
+
+ 
+
+Location
+CustomerID: Una identificación única que identifica a cada cliente.
+
+Count:Un valor utilizado en la presentación de informes/tablero para resumir el número de clientes en un conjunto filtrado.
+Country: El país de la residencia principal del cliente.
+
+State: El estado de la residencia principal del cliente.
+
+City: La ciudad de la residencia principal del cliente.
+
+Zip Code: El código postal de la residencia principal del cliente.
+
+Lat Long: La latitud combinada y la longitud de la residencia principal del cliente.
+Latitude: La latitud de la residencia principal del cliente.
+
+Longitude: La longitud de la residencia principal del cliente.
+
+ 
+
+Population
+ID: una identificación única que identifica cada fila.
+
+Zip Code: El código postal de la residencia principal del cliente.
+
+Población: una estimación de población actual para todo el área del código postal.
+
+ 
+
+Services
+CustomerID: Una identificación única que identifica a cada cliente.
+
+Count: Un valor utilizado en la presentación de informes/tablero para resumir el número de clientes en un conjunto filtrado.
+
+Quarter: El trimestre fiscal del que se han derivado los datos (por ejemplo, Q3).
+
+Referred a Friend: Indica si el cliente alguna vez ha remitido a un amigo o familiar a esta empresa: Sí, no
+
+Number of Referrals: Indica el número de referencias hasta la fecha que ha hecho el cliente.
+
+Tenure in Months: Indica la cantidad total de meses que el cliente ha estado con la empresa al final del trimestre especificado anteriormente.
+
+Oferta: identifica la última oferta de marketing que el cliente aceptó, si corresponde.Los valores no incluyen ninguno, la oferta A, la oferta B, la oferta C, la oferta d y la oferta E.
+
+Phone Service: Indica si el cliente se suscribe al servicio telefónico de la casa con la empresa: sí, no
+
+Avg Monthly Long Distance Charges: Indica los cargos promedio de larga distancia del cliente, calculados hasta el final del trimestre especificado anteriormente.
+
+Multiple Lines: Indica si el cliente se suscribe a múltiples líneas telefónicas con la empresa: sí, no
+Internet Service: Indica si el cliente se suscribe al servicio de Internet con la empresa: no, DSL, fibra óptica, cable.
+
+Avg Monthly GB Download: Indica el volumen de descarga promedio del cliente en Gigabytes, calculado al final del trimestre especificado anteriormente.
+Online Security: Indica si el cliente se suscribe a un servicio de seguridad en línea adicional proporcionado por la empresa: Sí, no
+Online Backup: Indica si el cliente se suscribe a un servicio de respaldo en línea adicional proporcionado por la Compañía: Sí, No
+
+Device Protection Plan: Indica si el cliente se suscribe a un plan de protección de dispositivos adicional para su equipo de Internet proporcionado por la empresa: Sí, no
+Premium Tech Support: Indica si el cliente se suscribe a un plan de soporte técnico adicional de la empresa con tiempos de espera reducidos: sí, no
+Streaming TV: Indica si el cliente usa su servicio de Internet para transmitir la programación de televisión de un proveedor de terceros: Sí, No. La compañía no cobra una tarifa adicional por este servicio.
+
+Streaming Movies: Indica si el cliente usa su servicio de Internet para transmitir películas de un proveedor de terceros: Sí, No. La compañía no cobra una tarifa adicional por este servicio.
+Streaming Music: Indica si el cliente usa su servicio de Internet para transmitir música de un proveedor de terceros: sí, No. La compañía no cobra una tarifa adicional por este servicio.
+Unlimited Data: Indica si el cliente ha pagado una tarifa mensual adicional para tener descargas/cargas de datos ilimitadas: sí, no
+
+Contract: Indica el tipo de contrato actual del cliente: mes a mes, un año, dos años.
+
+Paperless Billing: Indica si el cliente ha elegido facturación sin papel: sí, no
+Payment Method: Indica cómo el cliente paga su factura: retiro bancario, tarjeta de crédito, cheque por correo
+
+Monthly Charge: Indica el cargo total mensual actual del cliente por todos sus servicios de la empresa.
+
+Total Charges: Indica los cargos totales del cliente, calculados hasta el final del trimestre especificado anteriormente.
+
+Total Refunds: Indica los reembolsos totales del cliente, calculados al final del trimestre especificado anteriormente.
+
+Total Extra Data Charges: Indica los cargos totales del cliente para descargas de datos adicionales por encima de las especificadas en su plan, al final del trimestre especificado anteriormente.
+Total Long Distance Charges: Indica los cargos totales del cliente por larga distancia por encima de los especificados en su plan, al final del trimestre especificado anteriormente.
+ 
+
+Status
+CustomerID: Una identificación única que identifica a cada cliente.
+
+Count: Un valor utilizado en la presentación de informes/tablero para resumir el número de clientes en un conjunto filtrado.
+Quarter: El trimestre fiscal del que se han derivado los datos (por ejemplo, Q3).
+
+Satisfaction Score:La calificación de satisfacción general de un cliente de la empresa de 1 (muy insatisfecha) a 5 (muy satisfecho).
+
+Satisfaction Score Etiqueta: indica la versión de texto de la puntuación (1-5) como una cadena de texto.
+
+Customer Status: Indica el estado del cliente al final del trimestre: se agitó, se quedó o se unió
+
+Churn Label: Yes = El cliente dejó la empresa este trimestre.No = El cliente permaneció con la empresa.Directamente relacionado con el valor de la rotación.
+Churn Value: 1 = El cliente dejó la empresa este trimestre.0 = El cliente permaneció con la empresa.Directamente relacionado con la etiqueta de churn.
+
+Churn Score:Un valor de 0-100 que se calcula utilizando la herramienta predictiva IBM SPSS Modeler.El modelo incorpora múltiples factores que se sabe que causan rotación.Cuanto mayor sea el puntaje, más probable es que el cliente se agote.
+
+Churn Score Category:Un cálculo que asigna una puntuación de rotación a una de las siguientes categorías: 0-10, 11-20, 21-30, 31-40, 41-50, 51-60, 61-70, 71-80, 81-90,y 91-100
+
+CLTV: Customer Lifetime Value.Un CLTV predicho se calcula utilizando fórmulas corporativas y datos existentes.Cuanto mayor sea el valor, más valioso es el cliente.Los clientes de alto valor deben ser monitoreados por rotación.
+
+CLTV Category:Un cálculo que asigna un valor CLTV a una de las siguientes categorías: 2000-2500, 2501-3000, 3001-3500, 3501-4000, 4001-4500, 4501-5000, 5001-5500, 5501-6000, 6001-6500,y 6501-7000.
+
+Churn Category:Una categoría de alto nivel por la razón del cliente para agitar: actitud, competidor, insatisfacción, otro, precio.Cuando abandonan la empresa, se les pregunta a todos los clientes sobre sus razones para irse.Directamente relacionado con la razón de la rotación.
+
+Churn Reason:La razón específica de un cliente para dejar la empresa.Directamente relacionado con la categoría de rotación.
