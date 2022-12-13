@@ -1,0 +1,22 @@
+Analisis de Churn:
+
+Analalizaremos cuales son las variables correlacionadas en el churn de clientes en una empresa dado el set de datos. 
+
+Como lenguaje principal usaremos python.
+junto con librerias de analisis, exploracion, y prediccion de datos, especificadas en un "requiremets" junto con sus especificas versiones.
+
+Iniciaremos el proyecto en una terminal WSL(Ububtu) y  a la par un CMD(Windows).
+
+Para ello crearemos de 0 un entorno virtual desde Anaconda.(instalado en windows) 
+
+Para el manejo de versiones usaremos git.
+y por ende Github repositorio.
+
+Para mejor rapidez usaremos una llave SSH previamente configurada en el sistema(configurada en el entorno WSL)
+
+Para la estructuracion de carpetas usaremos cookiecutter, programaremos una arquitectura desde 0 para el proyecto basada en Repositorios de Data Sciece
+
+
+Para demostracion e storytelling usaremos jupiter-notebooks que despues abstraeremos a scrip de python.
+
+ 
