@@ -5,3 +5,8 @@ pandas 1.5.2
 scikit-learn 1.2.0
 seaborn 0.12.1
 ipykernel 6.9.2
+upsetplot 0.6.1
+janitor 0.23.1
+missingno 0.4.2
+pyreadr 0.4.7
+session_info
