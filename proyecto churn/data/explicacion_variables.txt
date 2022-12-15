@@ -76,20 +76,27 @@ Multiple Lines: Indica si el cliente se suscribe a múltiples líneas telefónic
 Internet Service: Indica si el cliente se suscribe al servicio de Internet con la empresa: no, DSL, fibra óptica, cable.
 
 Avg Monthly GB Download: Indica el volumen de descarga promedio del cliente en Gigabytes, calculado al final del trimestre especificado anteriormente.
+
 Online Security: Indica si el cliente se suscribe a un servicio de seguridad en línea adicional proporcionado por la empresa: Sí, no
+
 Online Backup: Indica si el cliente se suscribe a un servicio de respaldo en línea adicional proporcionado por la Compañía: Sí, No
 
 Device Protection Plan: Indica si el cliente se suscribe a un plan de protección de dispositivos adicional para su equipo de Internet proporcionado por la empresa: Sí, no
+
 Premium Tech Support: Indica si el cliente se suscribe a un plan de soporte técnico adicional de la empresa con tiempos de espera reducidos: sí, no
+
 Streaming TV: Indica si el cliente usa su servicio de Internet para transmitir la programación de televisión de un proveedor de terceros: Sí, No. La compañía no cobra una tarifa adicional por este servicio.
 
 Streaming Movies: Indica si el cliente usa su servicio de Internet para transmitir películas de un proveedor de terceros: Sí, No. La compañía no cobra una tarifa adicional por este servicio.
+
 Streaming Music: Indica si el cliente usa su servicio de Internet para transmitir música de un proveedor de terceros: sí, No. La compañía no cobra una tarifa adicional por este servicio.
+
 Unlimited Data: Indica si el cliente ha pagado una tarifa mensual adicional para tener descargas/cargas de datos ilimitadas: sí, no
 
 Contract: Indica el tipo de contrato actual del cliente: mes a mes, un año, dos años.
 
 Paperless Billing: Indica si el cliente ha elegido facturación sin papel: sí, no
+
 Payment Method: Indica cómo el cliente paga su factura: retiro bancario, tarjeta de crédito, cheque por correo
 
 Monthly Charge: Indica el cargo total mensual actual del cliente por todos sus servicios de la empresa.
@@ -99,6 +106,7 @@ Total Charges: Indica los cargos totales del cliente, calculados hasta el final 
 Total Refunds: Indica los reembolsos totales del cliente, calculados al final del trimestre especificado anteriormente.
 
 Total Extra Data Charges: Indica los cargos totales del cliente para descargas de datos adicionales por encima de las especificadas en su plan, al final del trimestre especificado anteriormente.
+
 Total Long Distance Charges: Indica los cargos totales del cliente por larga distancia por encima de los especificados en su plan, al final del trimestre especificado anteriormente.
  
 
@@ -106,6 +114,7 @@ Status
 CustomerID: Una identificación única que identifica a cada cliente.
 
 Count: Un valor utilizado en la presentación de informes/tablero para resumir el número de clientes en un conjunto filtrado.
+
 Quarter: El trimestre fiscal del que se han derivado los datos (por ejemplo, Q3).
 
 Satisfaction Score:La calificación de satisfacción general de un cliente de la empresa de 1 (muy insatisfecha) a 5 (muy satisfecho).
